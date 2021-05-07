@@ -1,12 +1,9 @@
-number = int(input("Enter the number: "))
-count = 2
-while number > count:
-    if number % count == 0:
-        print(f"{number} is not a prime number.")
-        break
+n =100
+liste =[] 
+for i in range(2,n):
+    for j in range(2,i):
+        if i%j ==0:
+            break
     else:
-        count += 1
-if count == number:
-  print(f"{number} is a prime number.")
-
-    
+        liste.append(i)
+print(liste)
