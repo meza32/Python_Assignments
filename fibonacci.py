@@ -5,4 +5,5 @@ while num<56:
   
   num = fibo[-2]+fibo[-1]
   
-print(fibo)
+out(fibo)
+
